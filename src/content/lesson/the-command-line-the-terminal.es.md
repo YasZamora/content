@@ -39,7 +39,7 @@ ls -l /path/to/directory
 
 Todos los comandos tienen tres partes: la ** utilidad **, los ** marcadores ** y los ** argumentos **. La utilidad siempre es lo primero. Las otras dos partes tienen reglas diferentes y, dependiendo del comando que estés utilizando, es posible que no tengan que usar ningún marcador o argumento.
 
-En este caso particular, usamos la "marcador" `-l` para especificar que queremos una versión "larga" de la lista de archivos (con más detalles).
+En este caso particular, usamos el "marcador" `-l` para especificar que queremos una versión "larga" de la lista de archivos (con más detalles).
 
 Lo último que tenemos que agregar es el "argumento". En este caso, el "argumento" será la ruta del directorio del cual queremos listar los archivos.
 
@@ -91,7 +91,7 @@ cd /path/to/directory
 
 **¿El comando mover?**
 
-Mueve un archivo a otra carpeta o directorio, como por ejemplo arrastrar un archivo ubicado en el escritorio de una PC a una carpeta almacenada dentro de la carpeta "Documentos".
+Mueve un archivo a otra carpeta o directorio, como por ejemplo, arrastrar un archivo ubicado en el escritorio de una PC a una carpeta almacenada dentro de la carpeta "Documentos".
 
 ```bash
 mv /path/to/file.txt /math/to/destination/file.txt
@@ -179,12 +179,12 @@ Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 + Para completar automáticamente el nombre de un archivo o carpeta, usa la tecla `tab`.
 + Para repetir cualquier comando que hayas usado en el pasado, usa la flecha `up`(arriba) y te mostrará cada comando, uno por uno.
 + Para ir a la carpeta principal del usuario, usa la tecla `~`, así: cd ~
-+ Usa el comando `clear` para "limpiar" la consola actual (es solo un desplazamiento, pero muy útil)
++ Usa el comando `clear` para "limpiar" la consola actual (es sólo un desplazamiento, pero muy útil)
 
-## Editando archivos en el terminal:
+## Editando archivos en la terminal:
 ***
 
-Esta es una de las cosas que no puedes evitar hacer en el terminal. Como desarrollador, tendrás que editar archivos en el terminal con más frecuencia de lo que crees. Por eso es mejor que esté preparado para usar la  [VI Aplicación o la Aplicación Nano](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).
+Esta es una de las cosas que no puedes evitar hacer en la terminal. Como desarrollador, tendrás que editar archivos en la terminal con más frecuencia de lo que crees. Por eso es mejor que esté preparado para usar la  [VI Aplicación o la Aplicación Nano](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).
 
 ### El comando  `nano`
 
